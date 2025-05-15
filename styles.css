@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.container-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.symbol {
+    border-radius: 50%;
+    background-color: darkgoldenrod;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#count {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.request {
+    border-radius: 40%;
+    width: 25px;
+    height: 15px;
+}
